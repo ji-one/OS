@@ -7,7 +7,6 @@
 #### project list   
 <details>
     <summary>No.1 Install xv6</summary>
-<
+    
     print student ID and name in the xv6 boot message
-       >
 </details>
