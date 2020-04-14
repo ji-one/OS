@@ -10,6 +10,7 @@
     $ make clean
     $ cd ..
     $ tar -czvf putyourfilename.tar.gz ./xv6-public
+    
     please command $ make clean before compressing
 
 
