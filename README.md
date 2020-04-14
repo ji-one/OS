@@ -4,6 +4,15 @@
 #### professor
 안성용 교수님
 
+<details>
+    <summary>How to compress code</summary>
+    
+    $ cd xv6-public
+    $ make clean
+    $ cd ..
+    $ tar -czvf putyourfilename.tar.gz ./xv6-public
+</details>
+
 #### project list   
 <details>
     <summary>No.0 Install xv6</summary>
