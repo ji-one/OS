@@ -5,10 +5,9 @@
 안성용 교수님
 
 #### project list   
-- No.1 Install xv6
 <details>
-    <summary>자세히</summary>
+    <summary>No.1 Install xv6</summary>
 
-<!-- summary 아래 한칸 공백 두고 내용 삽입 -->
+<print student ID and name in the xv6 boot message>
 
 </details>
