@@ -39,7 +39,20 @@
     
     please command $ make clean before compressing
    
-#### cscope
+#### CSCOPE
+
+##### install cscope
+    $ sudo apt-get install cscope
+    
+##### using cscope with Vim
+    $ wget http://cscope.sourceforge.net/cscope maps.vim
+    $ mkdir -p ~/.vim/plugin
+    $ cp cscope_maps.vim ~/.vim/plugin
+    
+##### creating cscope databse
+    $ cscope -Rb
+    - for Linux Kernel
+    $ make cscope
 
 #### project list   
 <details>
