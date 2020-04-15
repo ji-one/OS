@@ -22,8 +22,6 @@
 </details>
 <details>
     <summary>No.1 System call</summary>  
- : 1. make system call that returns the value of a counter which is incremented every time any process calls the read() system       call.
-    
- 2. make user program for testing
+ : make system call that returns the value of a counter which is incremented every time any process calls the read() system       call. also make user program for testing.
    
 </details>
