@@ -30,7 +30,6 @@
 ##### stop xv6
     1. Ctrl-A + X
 
-    
 #### How to compress code
     
     $ cd xv6-public
@@ -40,6 +39,7 @@
     
     please command $ make clean before compressing
    
+#### cscope
 
 #### project list   
 <details>
