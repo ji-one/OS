@@ -13,21 +13,21 @@
     4. sudo apt-get install gcc-multilib
     5. sudo apt-get install git
     
-    - install xv6
+##### install xv6
     1. cd
     2. git clone git://github.com/mit-pdos/xv6-public.git
     3. cd xv6-public
     4. make
     
-    - install qemu
+##### install qemu 
     1. sudo apt-get install qemu
     
-    - run xv6
+##### run xv6
     1. cd
     2. cd xv6-public
     3. make qemu-nox
     
-    - stop xv6
+##### stop xv6
     1. Ctrl-A + X
 
     
