@@ -29,15 +29,6 @@
     
 ##### stop xv6
     1. Ctrl-A + X
-
-#### How to compress code
-    
-    $ cd xv6-public
-    $ make clean
-    $ cd ..
-    $ tar -czvf putyourfilename.tar.gz ./xv6-public
-    
-    please command $ make clean before compressing
    
 #### CSCOPE
 
@@ -54,6 +45,15 @@
     - for Linux Kernel
     $ make cscope
 
+#### How to compress code
+    
+    $ cd xv6-public
+    $ make clean
+    $ cd ..
+    $ tar -czvf putyourfilename.tar.gz ./xv6-public
+    
+    please command $ make clean before compressing
+    
 #### project list   
 <details>
     <summary>No.0 Install xv6</summary>  
