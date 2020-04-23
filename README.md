@@ -4,7 +4,7 @@
 #### professor
 안성용 교수님
 
-#### Setting up Xv6
+#### - Setting up Xv6
 
 ##### setting up environments
     1. Install Ubuntu 16.04.6 LTS
@@ -30,7 +30,7 @@
 ##### stop xv6
     1. Ctrl-A + X
    
-#### CSCOPE
+#### - CSCOPE
 
 ##### install cscope
     $ sudo apt-get install cscope
