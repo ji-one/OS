@@ -45,7 +45,7 @@
     - for Linux Kernel
     $ make cscope
 
-#### How to compress code
+#### - How to compress code
     
     $ cd xv6-public
     $ make clean
