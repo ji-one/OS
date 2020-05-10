@@ -65,3 +65,7 @@
  : Make system call that returns the value of a counter which is incremented every time any process calls the read() system       call. Also make user program for testing.
    
 </details>
+<details>
+    <summary>No.2 Scheduling</summary>
+ : 1. Implement system calls related to process priority (setnice, getnice, ps)
+   2. Implement priority-based scheduler on xv6
