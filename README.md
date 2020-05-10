@@ -58,14 +58,15 @@
 #### project list   
 <details>
     <summary>No.0 Install xv6</summary>  
- : Print student ID and name in the xv6 boot message
+  Print student ID and name in the xv6 boot message
 </details>
 <details>
     <summary>No.1 System call</summary>  
- : Make system call that returns the value of a counter which is incremented every time any process calls the read() system       call. Also make user program for testing.
+  Make system call that returns the value of a counter which is incremented every time any process calls the read() system       call. Also make user program for testing.
    
 </details>
 <details>
     <summary>No.2 Scheduling</summary>
- : - Implement system calls related to process priority (setnice, getnice, ps)  
-    - Implement priority-based scheduler on xv6
+  1. Implement system calls related to process priority (setnice, getnice, ps)<br>        
+     2. Implement priority-based scheduler on xv6
+</details>
