@@ -67,5 +67,5 @@
 </details>
 <details>
     <summary>No.2 Scheduling</summary>
- : 1. Implement system calls related to process priority (setnice, getnice, ps)
-   2. Implement priority-based scheduler on xv6
+ : - Implement system calls related to process priority (setnice, getnice, ps)  
+    - Implement priority-based scheduler on xv6
