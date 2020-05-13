@@ -52,10 +52,10 @@
     
 --- 
 ### project list   
-#### [No.0 Install xv6](com/ji-one/OS-2020/tree/master/project%20%230)   
+#### [No.0 Install xv6](https://github.com/ji-one/OS-2020/tree/master/project%20%230)   
 - Print student ID and name in the xv6 boot message
   
-#### [No.1 System call](https://github.com/ji-one/OS-2020/tree/master/project%20%232)  
+#### [No.1 System call](https://github.com/ji-one/OS-2020/tree/master/project%20%231)  
 - Make system call that returns the value of a counter which is incremented every time any process calls the read() system call. Also make user program for testing.
   
 #### [No.2 Scheduling](https://github.com/ji-one/OS-2020/tree/master/project%20%232)  
