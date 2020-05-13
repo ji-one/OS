@@ -59,16 +59,16 @@ Get the nice value(0~40) of process.
 Add `nice` variable. 
 
 - syscall.c  
-Add system call for setnice(), getnice(), ps().  
+Add system call for `setnice()`, `getnice()`, `ps()`.  
 
 - syscall.h  
-Add system call number for setnice(), getnice(), ps().   
+Add system call number for `setnice()`, `getnice()`, `ps()`.   
 
 - sysproc.c  
-Add interrupt function for getnice(), setnice(), ps().   
+Add interrupt function for `getnice()`, `setnice()`, `ps()`.   
 
 - user.h  
-Add system call for setnice(), getnice(), ps().  
+Add system call for `setnice()`, `getnice()`, `ps()`.  
 
 - usys.S   
-Add system call for setnice(), getnice(), ps().    
+Add system call for `setnice()`, `getnice()`, `ps()`.    
