@@ -1,7 +1,7 @@
-## Project #2. Priority Scheduler
+# Project #2. Priority Scheduler
 
 
-#### 1. Implement system calls related to process priority. 
+## 1. Implement system calls related to process priority. 
 
 - The default nice value is 20.  
 - The range of valid nice value is [0,40].  
@@ -26,25 +26,25 @@ No return value.
 Make a user program(minitop) displays process status using ps system call.  
 
 
-#### 2. Implement priority-based scheduler on xv6. 
+## 2. Implement priority-based scheduler on xv6. 
 - The lower nice value, the higher priority.  
 - The highest priority process is selected for next running. 
 - Tiebreak : FIFO fashion. 
 
 
 ---  
-### Changed files
+## Changed files
 
-- defs.h  
+### defs.h  
 Add definition of `setnice()`, `getnice()`, `ps()`.  
 
-- Makefile   
+###  Makefile   
 Add `_minitop\` to execute minitop.c (also add test files). 
 
-- minitop.c  
+### minitop.c  
 Make user program for `minitop()`  to displays  process status using ps system call. 
 
-- proc.c    
+### proc.c    
 `allocproc()` : Set default nice value.    
 `fork()` : Set nice value of child process same as its parent process.    
 `scheduler()` : Make priority scheduler.     
@@ -55,20 +55,20 @@ Prints out process(s)'s information.
 `setnice()` : Make system call setnice().     
 Get the nice value(0~40) of process.     
 
-- proc.h    
+### proc.h    
 Add `nice` variable. 
 
-- syscall.c  
+### syscall.c  
 Add system call for `setnice()`, `getnice()`, `ps()`.  
 
-- syscall.h  
+### syscall.h  
 Add system call number for `setnice()`, `getnice()`, `ps()`.   
 
-- sysproc.c  
+### sysproc.c  
 Add interrupt function for `getnice()`, `setnice()`, `ps()`.   
 
-- user.h  
+### user.h  
 Add system call for `setnice()`, `getnice()`, `ps()`.  
 
-- usys.S   
+### usys.S   
 Add system call for `setnice()`, `getnice()`, `ps()`.    
