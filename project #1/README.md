@@ -11,10 +11,21 @@ You have to define a variable for the values of read counter. (e.g. readcount)
 ---     
 ## Changed files  
 ### user.h   
+Add system call for `getreadcount()`.    
 ### usys.S  
+Add system call for `getreadcount()`. 
 ### syscall.h   
+Add system call number for `getreadcount()`.
 ### syscall.c   
-### sysproc.c    
-### proc.c   
-### Makefile   
-### getreadcount()    
+Add system call for `getreadcount()`.
+### sysproc.c   
+Declare `readcount` as extern.    
+Add interrupt function for `getreadcount()`.
+### sysfile.c
+Add `readcount` variable and initialize to 0.   
+Add `readcount` variable to the `sys_reaed()` and when funtion is called, the value of `readcount` is incread by 1.     
+### Makefile 
+Add `_readcount\` to execute readcount.c
+### readcount.c  
+Make user program for `readcount()`  
+
