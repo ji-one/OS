@@ -45,14 +45,14 @@ Add `_minitop\` to execute minitop.c (also add test files).
 Make user program for `minitop()`  to displays  process status using ps system call. 
 
 ### proc.c    
-`allocproc()` : Set default nice value.    
-`fork()` : Set nice value of child process same as its parent process.    
-`scheduler()` : Make priority scheduler.     
-`getnice()` : Make system call getnice().        
+- `allocproc()` : Set default nice value.    
+- `fork()` : Set nice value of child process same as its parent process.    
+- `scheduler()` : Make priority scheduler.     
+- `getnice()` : Make system call getnice().        
 Return the nice value of pid(process)   
-`ps()` : Make system call ps().      
+- `ps()` : Make system call ps().      
 Prints out process(s)'s information.    
-`setnice()` : Make system call setnice().     
+- `setnice()` : Make system call setnice().     
 Get the nice value(0~40) of process.     
 
 ### proc.h    
