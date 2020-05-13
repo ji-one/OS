@@ -36,10 +36,10 @@ Make a user program(minitop) displays process status using ps system call.
 ### Changed files
 
 - defs.h  
-Add definition of `setnice()`, `getnice()`, `ps()`  
+Add definition of `setnice()`, `getnice()`, `ps()`.  
 
 - Makefile   
-Add `_minitop\` to execute minitop.c (also add test files) 
+Add `_minitop\` to execute minitop.c (also add test files). 
 
 - minitop.c  
 Make user program for `minitop()`  to displays  process status using ps system call. 
@@ -56,19 +56,19 @@ Prints out process(s)'s information.
 Get the nice value(0~40) of process.     
 
 - proc.h    
-Add `nice` variable 
+Add `nice` variable. 
 
 - syscall.c  
-Add system call for setnice(), getnice(), ps()  
+Add system call for setnice(), getnice(), ps().  
 
 - syscall.h  
-Add system call number for setnice(), getnice(), ps()   
+Add system call number for setnice(), getnice(), ps().   
 
 - sysproc.c  
-Add interrupt function for getnice(), setnice(), ps()   
+Add interrupt function for getnice(), setnice(), ps().   
 
 - user.h  
-Add system call for setnice(), getnice(), ps()  
+Add system call for setnice(), getnice(), ps().  
 
 - usys.S   
-Add system call for setnice(), getnice(), ps()    
+Add system call for setnice(), getnice(), ps().    
