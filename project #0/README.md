@@ -1,7 +1,7 @@
 # Project #0: Install xv6
 - Print student ID & name in xv6 boot message.
-<br/>    
-
+<br><br/>    
+---     
 ## Changed files
 ### init.c    
 Add the code below
