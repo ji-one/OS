@@ -50,6 +50,12 @@
     
     please command $ make clean before compressing
     
+
+#### - How to decompress code
+
+    $ tar -zxvf putyourfilename.tar.gz
+    
+  
 --- 
 ### project list   
 #### [No.0 Install xv6](https://github.com/ji-one/OS-2020/tree/master/project%20%230)   
